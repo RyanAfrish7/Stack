@@ -1,0 +1,21 @@
+{
+  "name": "stack",
+  "version": "0.0.0",
+  "description": "Stack game built using three.js",
+  "main": "dist/index.html",
+  "scripts": {
+    "watch-and-build": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "three.js"
+  ],
+  "author": "Afrish Khan S <ryanafrish7@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "three": "^0.87.1"
+  }
+}
